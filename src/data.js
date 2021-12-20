@@ -3,7 +3,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "PHP Order form",
       img:
-        "https://lh3.googleusercontent.com/proxy/mBMFnUQfh_YTeE2jTVj0g0YjDMN_8amsRkKpJ-8PI-N5FkEqz9_GgeSPwmN7Q_MTKnFnMfETAytL3ppxxIA0GAgJUWlA5usaikXB26agLbs7PCAlAZTeXfo",
+        "https://phpenthusiast.com/theme/assets/images/blog/angular_php_application_demo.gif",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export const featuredPortfolio = [
       id: 4,
       title: "GuestBook",
       img:
-        "https://lh3.googleusercontent.com/proxy/WbIzTspg12L2Fi2sEKwBP_UAJfTZshUyN5tIJjPhRRzSKPD8hEHCPPwcDJa0xxZomk5gVqOtDuzI-2hX79JLyel4S8c",
+        "https://raw.githubusercontent.com/kamuz/php-simple-guestbook-file/main/demo.gif",
     },
     {
       id: 5,
