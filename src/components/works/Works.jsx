@@ -1,36 +1,27 @@
 import { useState } from "react";
-import "./works.scss";
+import  "./works.scss";
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "SOLID",
-      desc:
-        "SOLID is an acronym for five software design principles that aim to help us structure our code in order to: Tolerate Change, Ease code Understanding ",
-      img:
-        "https://blog.thousandstar.net/wp-content/uploads/2021/07/1_2VuQVU_q7yp4-hU_eWw1g.png",
+      title: " Detail-oriented, organized and meticulous person.  ",      
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "SQL",
-      desc:
-        "SQL (Structured Query Language) is a standardized programming language that's used to manage relational databases and perform various operations on the data in them.",
-      img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      title: "Works at fast pace to meet tight deadlines.",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Javascript Framework",
-      desc:
-        " The React framework has earned popularity within a short period. It is used to develop and operate the dynamic User Interface of the web pages with high incoming traffic.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      title: "Enthusiastic team player ready to contribute.",
     },
+    {
+     id: "4",
+    title: "Technically proficient and analytical problem solver.",
+
+  },
+
   ];
 
   const handleClick = (way) => {
@@ -50,20 +41,13 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div>
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
-                  <span>Projects</span>
+                 
+                  <h1>{d.title}</h1>
+                  {/* <p>{d.desc}</p> */}
+                 
                 </div>
               </div>
-              <div className="right">
-                <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
-                />
-              </div>
+              
             </div>
           </div>
         ))}
