@@ -42,5 +42,5 @@ Install Sass by running this command in your terminal: npm i sass
  - I got alot of error while deploying encountered log errors, modules missing, buildpack and many more :disappointed:
  - Thanks to MINJIE who helped me in deployment process.
 
-### ta-daaa I finally did it :tada:
+### ta-daaa finally  I  did it :tada:
 
